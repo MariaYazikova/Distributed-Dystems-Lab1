@@ -1,0 +1,166 @@
+Initial keys: 1000
+Total operations: 50000
+Repetitions: 10
+
+Lock: pthread_rwlock
+Threads: 1
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.3014278, 0.311249, 0.3166971, 0.3469071, 0.326741, 0.31618, 0.3149168, 0.3077919, 0.3055019, 0.3001101]
+Mean: 0.314752270 seconds
+
+Lock: pthread_rwlock
+Threads: 1
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [4.304969, 4.189572, 4.198195, 4.232291, 4.214473, 4.081319, 3.921363, 4.161854, 4.021383, 4.254701]
+Mean: 4.158012000 seconds
+
+Lock: pthread_rwlock
+Threads: 1
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [1.499437, 1.558017, 1.429928, 1.392674, 1.520386, 1.482631, 1.425776, 1.3951, 1.553528, 1.521324]
+Mean: 1.477880100 seconds
+
+Lock: pthread_rwlock
+Threads: 8
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.638782, 0.6006649, 0.7354021, 0.5880821, 0.6007018, 0.63024, 0.5961571, 0.585674, 0.594326, 0.657418]
+Mean: 0.622744800 seconds
+
+Lock: pthread_rwlock
+Threads: 8
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [6.985218, 6.584434, 6.975803, 6.67542, 6.76136, 6.90546, 6.843264, 6.608284, 6.52634, 6.92352]
+Mean: 6.778910300 seconds
+
+Lock: pthread_rwlock
+Threads: 8
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [3.850768, 4.031617, 4.103553, 3.676923, 4.157023, 3.767141, 3.809447, 3.953325, 3.860583, 3.935121]
+Mean: 3.914550100 seconds
+
+Lock: pthread_rwlock
+Threads: 16
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.598599, 0.6169999, 0.6257, 0.6355371, 0.6072519, 0.6108241, 0.7172201, 0.7488639, 0.7249119, 0.6077821]
+Mean: 0.649369000 seconds
+
+Lock: pthread_rwlock
+Threads: 16
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [9.24223, 9.261692, 9.277989, 9.057447, 8.935826, 9.152772, 9.239621, 9.412832, 9.020656, 9.413283]
+Mean: 9.201434800 seconds
+
+Lock: pthread_rwlock
+Threads: 16
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [4.870729, 4.954277, 5.238505, 4.896983, 4.987915, 5.028, 4.737714, 4.981869, 5.021955, 4.918864]
+Mean: 4.963681100 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 1
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.3005359, 0.3147819, 0.330406, 0.3162889, 0.2970829, 0.3165221, 0.306484, 0.3009038, 0.3061759, 0.3076091]
+Mean: 0.309679050 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 1
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [4.0181, 4.002442, 4.228165, 4.044607, 3.994031, 4.229614, 4.075237, 4.043864, 3.969915, 4.129594]
+Mean: 4.073556900 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 1
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [1.459661, 1.469923, 1.505408, 1.496728, 1.656735, 1.545587, 1.387115, 1.471, 1.527808, 1.635259]
+Mean: 1.515522400 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 8
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.9875519, 0.950156, 0.9431059, 0.9569361, 0.95174, 0.9428959, 0.956012, 0.9617639, 0.953656, 0.9434769]
+Mean: 0.954729460 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 8
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [7.661951, 7.647733, 7.664292, 7.75993, 7.630224, 7.701777, 7.737365, 7.851997, 7.626888, 8.102026]
+Mean: 7.738418300 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 8
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [4.533452, 4.440814, 4.439792, 3.989351, 3.936548, 4.014849, 4.48311, 4.074745, 4.455969, 3.954508]
+Mean: 4.232313800 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 16
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [1.23324, 1.249828, 1.271206, 1.240584, 1.269179, 1.24378, 1.265363, 1.234421, 1.24673, 1.257913]
+Mean: 1.251224400 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 16
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [10.27311, 10.28745, 10.09245, 10.1583, 10.15921, 10.21849, 10.31139, 10.35171, 10.15784, 10.21723]
+Mean: 10.222718000 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 16
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [5.538259, 5.551267, 5.451895, 5.516741, 5.458686, 5.5215, 5.563449, 5.727428, 5.625576, 5.747243]
+Mean: 5.570204400 seconds
+
+Lock: READERS_PRIORITY
+Threads: 1
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.3014491, 0.316334, 0.3000419, 0.3053992, 0.2987351, 0.306206, 0.3054988, 0.3041902, 0.2996728, 0.3180411]
+Mean: 0.305556820 seconds
+
+Lock: READERS_PRIORITY
+Threads: 1
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [4.113362, 3.985048, 3.909109, 4.019416, 4.246207, 4.083983, 4.061403, 4.027626, 4.2914, 3.974462]
+Mean: 4.071201600 seconds
+
+Lock: READERS_PRIORITY
+Threads: 1
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [1.592065, 1.527295, 1.36613, 1.414066, 1.472768, 1.411199, 1.38265, 1.521499, 1.509505, 1.422782]
+Mean: 1.461995900 seconds
+
+Lock: READERS_PRIORITY
+Threads: 8
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.7898889, 0.8438199, 0.8340569, 0.8099251, 0.8724649, 0.823072, 0.8241532, 0.869581, 0.8175652, 0.8638752]
+Mean: 0.834840230 seconds
+
+Lock: READERS_PRIORITY
+Threads: 8
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [7.045036, 6.882763, 7.081442, 6.863003, 7.062245, 6.804167, 6.997321, 6.917269, 6.915479, 7.060973]
+Mean: 6.962969800 seconds
+
+Lock: READERS_PRIORITY
+Threads: 8
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [3.441509, 3.411903, 3.536056, 3.642029, 3.475791, 3.526413, 3.51992, 3.456503, 3.506424, 3.446229]
+Mean: 3.496277700 seconds
+
+Lock: READERS_PRIORITY
+Threads: 16
+Workload: 90% searches, 5% inserts, 5% deletes
+All times: [0.8776741, 0.8015718, 0.792572, 0.7882922, 0.7578011, 0.8852909, 0.8878329, 0.8378279, 0.8350661, 0.9908228]
+Mean: 0.845475180 seconds
+
+Lock: READERS_PRIORITY
+Threads: 16
+Workload: 10% searches, 45% inserts, 45% deletes
+All times: [9.129768, 8.885231, 8.961036, 9.01968, 9.058829, 8.68862, 8.792525, 8.753556, 9.202709, 8.915439]
+Mean: 8.940739300 seconds
+
+Lock: READERS_PRIORITY
+Threads: 16
+Workload: 50% searches, 25% inserts, 25% deletes
+All times: [4.116782, 4.220533, 4.284791, 4.448209, 4.219024, 4.281312, 4.14671, 4.138089, 4.311902, 4.145347]
+Mean: 4.231269900 seconds
+

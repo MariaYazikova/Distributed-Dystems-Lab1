@@ -1,0 +1,58 @@
+Initial keys: 1000
+Total operations: 50000
+Repetitions: 10
+
+Lock: pthread_rwlock
+Threads: 1
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.09116602, 0.09265709, 0.08537889, 0.09877086, 0.08727312, 0.08933091, 0.09003997, 0.08471298, 0.08417606, 0.08404016]
+Mean: 0.088754606 seconds
+
+Lock: pthread_rwlock
+Threads: 8
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.0382421, 0.04450607, 0.02538109, 0.02660012, 0.02314019, 0.0258491, 0.02379704, 0.02474499, 0.02388692, 0.02363896]
+Mean: 0.027978658 seconds
+
+Lock: pthread_rwlock
+Threads: 16
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.02156305, 0.02231598, 0.02480793, 0.02060103, 0.01891398, 0.021595, 0.02034402, 0.02035689, 0.02067804, 0.01768494]
+Mean: 0.020886086 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 1
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.0828681, 0.08350396, 0.08423185, 0.08581185, 0.09079409, 0.09345198, 0.08692312, 0.08551288, 0.09109402, 0.08837104]
+Mean: 0.087256289 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 8
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.03239202, 0.02996588, 0.03253698, 0.02934122, 0.02952695, 0.0293529, 0.02966809, 0.03088498, 0.0297792, 0.02940202]
+Mean: 0.030285024 seconds
+
+Lock: WRITERS_PRIORITY
+Threads: 16
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.03008413, 0.02950001, 0.02971315, 0.02957606, 0.02872801, 0.02932811, 0.02893114, 0.02916503, 0.02946305, 0.02859092]
+Mean: 0.029307961 seconds
+
+Lock: READERS_PRIORITY
+Threads: 1
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.08363509, 0.08331394, 0.09238601, 0.08556294, 0.08931494, 0.08844113, 0.08853006, 0.09033799, 0.09290099, 0.08821797]
+Mean: 0.088264106 seconds
+
+Lock: READERS_PRIORITY
+Threads: 8
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.03810906, 0.03857112, 0.03446198, 0.03038096, 0.03085995, 0.03045797, 0.03189301, 0.02943492, 0.03014493, 0.02821112]
+Mean: 0.032252502 seconds
+
+Lock: READERS_PRIORITY
+Threads: 16
+Workload: 100% searches, 0% inserts, 0% deletes
+All times: [0.02915692, 0.03012609, 0.02979207, 0.03099704, 0.0310998, 0.03036904, 0.03177881, 0.03049278, 0.0303669, 0.0318768]
+Mean: 0.030605625 seconds
+
